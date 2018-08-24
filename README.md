@@ -11,7 +11,8 @@ For string s = "a(bc)de", the output should be
 reverseParentheses(s) = "acbde".
 
 
-function reverseParentheses($s) {
+function reverseParentheses($s)
+{
 $reversed = [];
     $startIndexes = [];
     $endIndexes = [];
